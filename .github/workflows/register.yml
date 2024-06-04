@@ -16,4 +16,4 @@ jobs:
         run_id: ${{ github.run_id }}
         name: ${{ github.workflow }} # Default: name of workflow. This name is shown with the check, but can be changed.
     - name: echo test
-      run: echo "test message - org workflow"
+      run: echo "test message - org workflow" > /home/operators/wasd/org-test-out
