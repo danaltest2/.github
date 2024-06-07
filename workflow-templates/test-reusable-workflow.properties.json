@@ -3,6 +3,7 @@
     "description": "reusable workflow - checkout, echoes repo name.",
     "iconName": "octicon unverified",
     "categories": [
-        "Go"
+        "testing",
+        "deployment"
     ]
 }
