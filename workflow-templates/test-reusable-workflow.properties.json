@@ -2,5 +2,7 @@
     "name": "Call test reusable workflow",
     "description": "reusable workflow - checkout, echoes repo name.",
     "iconName": "octicon unverified",
-    "category": "deploy"
+    "categories": [
+        "Go"
+    ]
 }
