@@ -1,0 +1,13 @@
+name: call test git sync workflow
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+
+jobs:
+  build:
+    runs-on: self-hosted
+    steps:
+      - uses: danaltest2/test-git-sync-workflow/.github/workflows/main.yml@main
