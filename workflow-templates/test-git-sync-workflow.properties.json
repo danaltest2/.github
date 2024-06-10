@@ -1,0 +1,9 @@
+{
+    "name": "Call test git sync workflow",
+    "description": "git sync workflow - checkout, push to on-prem git.",
+    "iconName": "sync",
+    "categories": [
+        "testing",
+        "deployment"
+    ]
+}
